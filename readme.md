@@ -29,8 +29,8 @@ The app is built using Flask and Socket.IO for the main logic, and Node.js and T
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/yourproject.git
-    cd yourproject
+    git clone https://github.com/laptaka/DynamicChat.git
+    cd DynamicChat
     ```
 
 2. Create and activate a virtual environment:
