@@ -1,6 +1,13 @@
 # Dynamic Chat
 
-...
+Dynamic Chat is an application intended to be used as a fully featured OBS web source used by streamers.\
+This app integrates Twitch chat, various Twitch emote providers, Spotify, and Ko-Fi donations to give the viewers a stream interface that responds to the viewers' actions.\
+It features real-time chat message processing with emotes from popular platforms, donation handling through Ko-Fi, a Spotify widget, and a dynamic lava lamp styled background.\
+When there are too many messages in chat to be shown in a reasonable amount of time, the app uses AI to determine the most interesting message from the Twitch chat that is then shown on stream, pushing the viewers to write more engaging messages.\
+The app also features a Spotify widget that shows the currently playing song on stream, and if the artist or song name is in Russian, it will show the transliteration of the names.\
+Donations are handled through Ko-Fi, and when a donation is made, the app will show the donation message on stream and play the message as a TTS audio through AWS Polly.\
+A big part of Dynamic Chat is the dynamic lava lamp effect that can be used as a background for the stream and responds to the music that is playing.\
+The app is built using Flask and Socket.IO for the main logic, and Node.js and Three.JS for the GLSL background.
 
 ## Prerequisites
 
